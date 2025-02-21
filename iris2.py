@@ -5,6 +5,7 @@ import pandas as pd
 
 iris = load_iris()
 
+df = pd.read_csv("iris.csv")
 # Convertir-lo a un DataFrame de Pandas
 df = pd.DataFrame(iris.data, columns=iris.feature_names)
 
